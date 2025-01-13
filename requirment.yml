@@ -1,0 +1,14 @@
+name: psi_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip:
+      - git
+      - git+https://github.com/psitools/psitools-public.git
